@@ -1,0 +1,41 @@
+# Ignore artifacts:
+build/
+coverage/
+node_modules/
+
+# Ignore all HTML files:
+*.html
+
+# Ignore all CSS files:
+*.css
+
+# Ignore specific files or directories:
+public/
+dist/
+.temp/
+.cache/
+
+# Ignore environment files:
+.env
+.env.local
+.env.*.local
+
+# Ignore lock files:
+package-lock.json
+yarn.lock
+
+# Ignore configuration files:
+*.config.js
+
+# Ignore minified files:
+*.min.js
+
+# Ignore JSON files:
+*.json
+
+# Ignore log files:
+*.log
+
+# Ignore specific file types:
+*.md  # Markdown files
+*.svg # SVG files
