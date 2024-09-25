@@ -1,13 +1,12 @@
 // use of promise for making asynchandler function
 
 const Asynchandler = (requesthandler) => {
-  (req, res, next) => {
+  return (req, res, next) => {
     Promise.resolve(requesthandler(req, res, next)).catch((err) => {
       next(err);
     });
   };
 };
-
 
 // use of try-catch format for asynchandler function in this function we are using try catch
 
